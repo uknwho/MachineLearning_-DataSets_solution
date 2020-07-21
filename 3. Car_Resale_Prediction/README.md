@@ -37,9 +37,11 @@ There are various car Models (1876) so the brand name is extracted from the 'Nam
 - 5 Seater cars are more prevalent followed by the 7 seaters.
 - Most of the attributes exhibit outliers, these outliers have valuable information. The data points follow a patern, outliers are not isolated. Few Points lie farther from the rest of the data in Kilometers_Driven and Price columns. 
 
+
 > **Models which are robust to Outliers must be employed as the data has significant genuine outliers.**
 
-**Bivariate Analysis**
+
+**Conclusions of Bivariate Analysis**
 
 - Automatic(Class 0) has higher price than the Manual(Calss 1) with little few execptions.
 - As the Power increases there is a rise in the price, low power vehicles have low price but there is a huge variance at higher price as the price are more scattered widely. High power cars are Automatic Transmission.
