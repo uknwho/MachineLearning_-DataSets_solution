@@ -52,3 +52,6 @@ There are various car Models (1876) so the brand name is extracted from the 'Nam
 - Older the car less is the price and latest cars are dominantly automatic.
 - 'Owner_type' being majorily dominated by first class does not show any significant pattern making it a weak attribute.
 - Price has good correlation with Engine and Power, followed by Transmission and year columns. Diesel and Petrol also show some kind of relation with the Price. Other fuel types hardly have correlation with the target variacle price.
+
+> **The Decision trees would result in better solution than Linear Model, the reaason being Data has valuable outliers and Location and company being nominal categories are one hot encoded due to thier large number of classes.**
+
