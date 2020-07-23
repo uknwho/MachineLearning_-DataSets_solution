@@ -20,7 +20,10 @@ Description of the Columns in the dataset.
 - status : Health status of the subject (one) - Parkinson's, (zero) - healthy
 - RPDE,D2 : Two nonlinear dynamical complexity measures
 - DFA : Signal fractal scaling exponent
-- spread1,spread2,PPE : Three nonlinear measures of fundamental frequency variation
+- spread1,spread2,PPE : Three nonlinear measures of fundamental frequency variation.
 
+> The target Varaiable has imbalanced classes.
+
+The Name data which provides no valuable information for the model building has been droppped. The data consists of frequency measures and amplitudes, there is high correlation amomg the data (especially amomg the frequencies attributes and among the amplitude attributes).
 
 
