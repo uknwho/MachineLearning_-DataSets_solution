@@ -29,7 +29,9 @@ The "Unnamed:0" column should be dropped as it is the serial no of the observati
 
 There are various car Models (1876) so the brand name is extracted from the 'Name' to a new attribute 'Company'.
 
-**Conclusisons of Univariate Analysis**
+**Univariate Analysis**
+
+![Univariate Analysis](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/Uni_kde.png)
 
 - Diesel and Petrol are predominant Fuel type.
 - Vast Majority of the cars are First Hand.
@@ -41,7 +43,9 @@ There are various car Models (1876) so the brand name is extracted from the 'Nam
 > **Models which are robust to Outliers must be employed as the data has significant genuine outliers.**
 
 
-**Conclusions of Bivariate Analysis**
+**Bivariate Analysis**
+
+![Transmission-Price](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/Trans_price.png)
 
 - Automatic(Class 0) has higher price than the Manual(Calss 1) with little few execptions.
 - As the Power increases there is a rise in the price, low power vehicles have low price but there is a huge variance at higher price as the price are more scattered widely. High power cars are Automatic Transmission.
@@ -52,6 +56,8 @@ There are various car Models (1876) so the brand name is extracted from the 'Nam
 - Older the car less is the price and latest cars are dominantly automatic.
 - 'Owner_type' being majorily dominated by first class does not show any significant pattern making it a weak attribute.
 - Price has good correlation with Engine and Power, followed by Transmission and year columns. Diesel and Petrol also show some kind of relation with the Price. Other fuel types hardly have correlation with the target variacle price.
+
+![Fue-Price](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/Fuel_price.png)
 
 > **The Decision trees would result in better solution than Linear Model, the reaason being Data has valuable outliers and Location and company being nominal categories are one hot encoded due to thier large number of classes.**
 
