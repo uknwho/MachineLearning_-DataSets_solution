@@ -61,3 +61,12 @@ There are various car Models (1876) so the brand name is extracted from the 'Nam
 
 > **The Decision trees would result in better solution than Linear Model, the reaason being Data has valuable outliers and Location and company being nominal categories are one hot encoded due to thier large number of classes.**
 
+## **Clustering**
+
+Agglomerative Clustering is appplied on the data set using various Linkage techniques, Ward linkage has proven out to be the optimal method. THe aim of clustering is to group cars based on the independent parameters, like the Larger Vehicles(SUVs and MPVs), Luxury cars, Economic cars and many more. This categorization of cars adds another dimension to the data, Price of the vehicle will have a serious correlation if proper clusters are formed. 
+
+Attributes like Location and Company have not been included in the Clustering as the label encoding has incoporated an order among the classes. 'Owner_type' is majorily dominated by one class and thus will not be effective in cluster formation. Kilometers Driven has huge outliers, the clustering techniques are not robust to outliers, therefore it is dropped. Effectively trying to cluster the cars based on the Power, Mileage, Seats and Engine Capacity.
+
+![Hierarchical](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/G3_Clustering.png)
+
+In the above Clustering image, the data can be either categorised to 3 or 5 Clusters. At 120 threshold, three clusters are formed which are represented by Orange, Green and Red. If the threshold is decreased to 100, the Green and the Red clusters are further split into smaller clusters. both these clusters are formed at a good distance suggesting that they are different from each other.
