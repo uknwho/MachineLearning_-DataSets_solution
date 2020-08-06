@@ -74,6 +74,9 @@ In the above Clustering image, the data can be either categorised to 3 or 5 Clus
 **Understanding the Clusters Formed.**
 
 The boxplot has been plotted with the groups against Features - Transmission, Mileage, Engine, Power, Seats, and Fuel. with the boxplot the aim is to identify what these cluster represent.
+
+![BOXPLOT 5](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/G5_boxplot.png)
+
 * Cluster 0 :
 All the Vehicles belong to automatic Transmission, with high Engine and Power Capacity, this cluster contains vehicles upto 8 seats and majorily Diesel type with few petrol outliers. Though the mileage box plot is wide spread this cluster has the lower mileage with few outliers.
 
