@@ -70,3 +70,23 @@ Attributes like Location and Company have not been included in the Clustering as
 ![Hierarchical](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/G3_Clustering.png)
 
 In the above Clustering image, the data can be either categorised to 3 or 5 Clusters. At 120 threshold, three clusters are formed which are represented by Orange, Green and Red. If the threshold is decreased to 100, the Green and the Red clusters are further split into smaller clusters. both these clusters are formed at a good distance suggesting that they are different from each other.
+
+**Understanding the Clusters Formed.**
+
+The boxplot has been plotted with the groups against Features - Transmission, Mileage, Engine, Power, Seats, and Fuel. with the boxplot the aim is to identify what these cluster represent.
+* Cluster 0 :
+All the Vehicles belong to automatic Transmission, with high Engine and Power Capacity, this cluster contains vehicles upto 8 seats and majorily Diesel type with few petrol outliers. Though the mileage box plot is wide spread this cluster has the lower mileage with few outliers.
+
+* Cluster 1 :
+This cluster belong to non-Diesel Vehicles with low Engine capacity, Power output and Better mileage compared to the Cluster 0. These vehicles are prdoiminantly 5 seater with few 4 and 6 seater aswell. These are the economic non-diesel cars. LPG and CNG belong to this cluster identified in the mileage boxplot.
+
+* Cluster 2 :
+ The Third cluster is again Diesel type with no petrol and electric vehicels. These cars have the highest mileage which is clearly distinguished in the boxPlot, with Low engine and power capacity making them economic diesel 5 seater cars.
+ 
+ * Cluster 3:
+ These aree the big vehicles with more than 6 seater. This groups has the lowest mileage (boxplot mean), with high engine and power output to support the high requirement of the large vehicle. these are again majorily dominated by Diesel with few Petrol Vehicles.
+ 
+ * Cluster 4:
+This cluster belong to petrol and electric (lowest engine capacity in mileage boxplot) vehicles, relativley higher engine capacity and power output comapre tot he cluster 1(Petrol). This group has seats rangine from 2 to 5
+
+  
