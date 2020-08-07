@@ -78,7 +78,7 @@ The boxplot has been plotted with the groups against Features - Transmission, Mi
 ![BOXPLOT 5](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/G5_boxplot.png)
 
 * Cluster 0 :
-All the Vehicles belong to automatic Transmission, with high Engine and Power Capacity, this cluster contains vehicles upto 8 seats and majorily Diesel type with few petrol outliers. Though the mileage box plot is wide spread this cluster has the lower mileage with few outliers.
+All the Vehicles belong to automatic Transmission, with high Engine and Power Capacity, this cluster contains vehicles upto 8 seats and majorily Diesel type with few petrol outliers. Though the mileage box plot is wide spread this cluster has the lower mileage with few outliers. These belong to the luxury class.
 
 * Cluster 1 :
 This cluster belong to non-Diesel Vehicles with low Engine capacity, Power output and Better mileage compared to the Cluster 0. These vehicles are prdoiminantly 5 seater with few 4 and 6 seater aswell. These are the economic non-diesel cars. LPG and CNG belong to this cluster identified in the mileage boxplot.
@@ -92,4 +92,7 @@ This cluster belong to non-Diesel Vehicles with low Engine capacity, Power outpu
  * Cluster 4:
 This cluster belong to petrol and electric (lowest engine capacity in mileage boxplot) vehicles, relativley higher engine capacity and power output comapre tot he cluster 1(Petrol). This group has seats rangine from 2 to 5
 
+![Price_Boxplot](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/3.%20Car_Resale_Prediction/images/g5_price.png)
+
+It is evident that Group 1 and Group 2 have lower price compared to the other 3 groups. These clusters have huge number of outliers, which are genuine. The Regression model will be able to identify the pattern by associated with the clusters and other features. 
   
