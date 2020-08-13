@@ -4,7 +4,7 @@ Logistic Regression is calssifier model based on linear Regression. The Response
 
 The "nba_logreg.csv" attached to this folder has Statistics of NBA Players like Games played, points etc. The goal is to classify the players based on thier statistics, who has a carrer length of greater than 5 years. It is depicted in the "TARGET_5Yrs" column, where 0 is for players with lesss than 5 years career and 1 represents players with carrer more than 5 years. The column description is added to the folder.
 
-> ##**Column Description**##
+> ## Column Description ##
 
 * Name : Player Name.
 * GP : Games Played.
