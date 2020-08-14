@@ -28,11 +28,13 @@ The Columns have decimal values indicating that these points , attempts and perc
 
 [Base_model](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/1_Logisctic_Regression_NBA/nba_logreg_solution_1.ipynb)
 
-In this Notebook, a basic approach is taken by dropping the highly collinear features and handlling the outliers. This model can be treated as the base model, which results in an accuraccy of 69%. The null values are filled by the medians.
+In this Notebook, a basic approach is taken by dropping the highly collinear features and handlling the outliers. This model can be treated as the base model, which results in an accuraccy of 69%. The Model has Null values in one column and lots of genuine Outliers, no further preprocessing is required. 
 
 > Null Values
+
 The null values which are present in the FG% is due to the 0 value of the corresponding 'FGA'. Since 'FG%' is calculated by (FGM/FGA)100, the 0 values in FGA produce null values, which must be replaced by zeros instead of median value.
 
 > Outliers
+
 The attributes are average values, since it is a classification problem the exact number would not be required. The outlying data can be either capped to its maximum allowable value or Transformed using basic logarithmic and square root operations. Through iterations the best method to handle outliers is selected.
 
