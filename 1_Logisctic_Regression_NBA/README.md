@@ -1,8 +1,4 @@
-This is a Data Set to practice calssification with logistic regression.
-
-Logistic Regression is calssifier model based on linear Regression. The Response variable can be BInary class or multi classs with cateorical or numericals classes. It is simple to implement and provides probabilities for each class. The data set needs to be reqularised since high magnitude variabels might ifluence the predictions since its based on Linear regression. Logistoc Regression is highly effected by outliers. This model assumes attributes to be independent, so collinearity should be avoided.
-
-The "nba_logreg.csv" attached to this folder has Statistics of NBA Players like Games played, points etc. The goal is to classify the players based on thier statistics, who has a carrer length of greater than 5 years. It is depicted in the "TARGET_5Yrs" column, where 0 is for players with lesss than 5 years career and 1 represents players with carrer more than 5 years. The column description is added to the folder.
+The Aim of this note book is to find whether a player has career length more than 5 years based on the statistics of his gameplay. The "nba_logreg.csv" attached to this folder has Statistics of NBA Players like Games played, points etc.  It is depicted in the "TARGET_5Yrs" column, where 0 is for players with lesss than 5 years career and 1 represents players with carrer more than 5 years. The column description is added to the folder.
 
 > ## Column Description ##
 
@@ -34,4 +30,9 @@ The Columns have decimal values indicating that these points , attempts and perc
 
 In this Notebook, a basic approach is taken by dropping the highly collinear features and handlling the outliers. This model can be treated as the base model, which results in an accuraccy of 69%. The null values are filled by the medians.
 
+> Null Values
+The null values which are present in the FG% is due to the 0 value of the corresponding 'FGA'. Since 'FG%' is calculated by (FGM/FGA)100, the 0 values in FGA produce null values, which must be replaced by zeros instead of median value.
+
+> Outliers
+The attributes are average values, since it is a classification problem the exact number would not be required. The outlying data can be either capped to its maximum allowable value or Transformed using basic logarithmic and square root operations. Through iterations the best method to handle outliers is selected.
 
