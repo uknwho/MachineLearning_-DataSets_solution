@@ -54,7 +54,16 @@ Logistic Regression Model has led to a score of 72% on the train set and 70% on 
 
 > Polynomial Feature Generation
 
-The idea is to generate more Features from the existing attributes and select the best features to further train the Model. Feature Slection is done by the Sequential Feature Selection from the mlxtend package. 
+The idea is to generate more Features from the existing attributes and select the best features to further train the Model. Feature Slection is done by the Sequential Feature Selection from the mlxtend package. The below graph shows no adverse peak or drop in perforamnce against the number of features. The Performance obtained here is very much similar to that of the PCA transformed Data.
 
 ![Feature_Selection](https://github.com/uknwho/MachineLearning_-DataSets_solution/blob/master/1_Logisctic_Regression_NBA/Feature_selection.png)
+
+16 Features are selected as from the next a minute drop in performace is observed. The Recall and precision values suggest that the class imbalnce is a slight hindernce to the classification.
+
+Other classification models predict with lesser accuracies, but the Hyperparameter Optimization will increase it. Since the focus of this project is on Logistic Regression, it is the Primary Model and the results are as follows.
+
+Precision : 0.740
+Recall : 0.83
+F1 score : 0.79
+Accuracy : 0.724
 
