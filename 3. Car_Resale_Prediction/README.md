@@ -96,3 +96,4 @@ This cluster belong to petrol and electric (lowest engine capacity in mileage bo
 
 It is evident that Group 1 and Group 2 have lower price compared to the other 3 groups. These clusters have huge number of outliers, which are genuine. The Regression model will be able to identify the pattern by associated with the clusters and other features. 
   
+[Tableau - Comparision between Brand, Avg Price, Avg Mileage and Avg Price.](https://public.tableau.com/profile/jaya.surya#!/vizhome/Used_Car/Mil_Pow_pri)
